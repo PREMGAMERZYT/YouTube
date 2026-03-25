@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Courier New', Courier, monospace; */
+    background-color: #0f0f0f;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.bar {
+    width: 1.3rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    /* padding: 0.2rem 0.1rem 0.2rem 0.1rem; */
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    border-radius: 50%;
+}
+
+.bars:hover {
+    background-color: #212121;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin: 0 0 0 0.5rem;
+    cursor: pointer;
+}
+
+.logo {
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: #ffffff;
+
+}
+
+.texts {
+    display: flex;
+
+}
+
+.Yt {
+    font-size: 20px;
+}
+
+.in {
+    font-size: 10px;
+    opacity: 0.5;
+    padding: 0 0 0 5px;
+}
+
+.redbox {
+    width: 2rem;
+    height: 1.4rem;
+    background-color: #ff0000;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play {
+    width: 0;
+    height: 0;
+    border-left: 0.4rem solid #ffffff;
+    border-top: 0.3rem solid transparent;
+    border-bottom: 0.3rem solid transparent;
+}
+
+.middeleside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar {
+    width: 33.5rem;
+    height: 2.5rem;
+    /* background-color: #212121; */
+    display: flex;
+    align-self: start;
+}
+
+#search {
+    width: 33.5rem;
+    height: 2.5rem;
+    background-color: #121212;
+    /* border: none; */
+    padding: 0 0 0 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: 0.1px solid #858484;
+}
+
+.searchbar button {
+    width: 4rem;
+    height: 2.5rem;
+    background-color: #212121;
+    border: 0.1px solid #858484;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-left: none;
+    cursor: pointer;
+}
+
+.voiceicon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #212121;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createbutton {
+    width: 6.073125rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #212121; */
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.createbutton:hover {
+    background-color: #212121;
+}
+
+.createText {
+    margin: 0 0 0 0.5rem;
+}
+
+.bell {
+    width: 2.5rem;
+    height: 2.5rem;
+    /* background-color: #212121; */
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.bell:hover {
+    background-color: #212121;
+}
+
+.channel-logo {
+    margin: 0 0 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
