@@ -10,6 +10,7 @@
 body {
     /* font-family: 'Courier New', Courier, monospace; */
     background-color: #0f0f0f;
+    padding: 3.75rem 0 0 0;
 }
 
 nav {
@@ -18,6 +19,12 @@ nav {
     justify-content: space-between;
     color: white;
     padding: 0.5rem 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
 }
 
 .rightside {
@@ -202,4 +209,219 @@ nav {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+
+.baralloptions {
+    color: #ffffff;
+    width: 14.375rem;
+    height: 100vh;
+    /* background-color: #b63838; */
+    /* margin: 4.5rem 0 0 0 ; */
+    padding: 1rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4.5rem;
+    left: 0;
+    z-index: 999;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 0.5rem 0;
+}
+
+.home {
+    font-size: 1.125rem;
+    width: 80%;
+    background-color: none;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0.625rem;
+    padding: 0 0 0 1rem;
+}
+
+.home i {
+    margin: 0 1.5rem 0 0;
+}
+
+.home p {
+    font-weight: 600;
+}
+
+.shorts {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    margin-top: 0.5rem;
+    background-color: none;
+    padding: 0 0 0 1rem;
+}
+
+.shorts img {
+    margin: 0 1.5rem 0 0;
+}
+
+.shorts p {
+    font-weight: 600;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem 0 0 0;
+    border-top: 0.1px solid white;
+}
+
+.subscribstion {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.headding {
+    color: #ffffff;
+    font-size: 1rem;
+    /* font-weight: 600; */
+    margin: 1rem 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: none;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    padding: 0 0 0 1rem;
+
+}
+
+.arrow {
+    margin: 0 0 0 1rem;
+}
+
+.subscribers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.625rem;
+    width: 100%;
+    margin-top: 0.5rem;
+
+
+}
+
+.first-subscriber {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 2.5rem;
+    background-color: none;
+    border-radius: 0.625rem;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    margin-top: 0.5rem;
+    padding: 0 0 0 1rem;
+
+}
+
+.img img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin: 0 1rem 0 0;
+}
+
+.second-subscriber {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 2.5rem;
+    background-color: none;
+    border-radius: 0.625rem;
+    margin: 0.5rem 0 0 0;
+    padding: 0 0 0 1rem;
+
+}
+
+.thired-subscriber {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 2.5rem;
+    background-color: none;
+    border-radius: 0.625rem;
+    margin: 0.5rem 0 0 0;
+    padding: 0 0 0 1rem;
+}
+
+.thired-subscriber .channel-name3 p {
+    font-size: 12px;
+}
+
+.fourth-subscriber {
+    width: 100%;
+    height: 2.5rem;
+    background-color: none;
+    border-radius: 0.625rem;
+    margin: 0.5rem 0 0 0;
+    padding: 0 0 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fifth-subscriber {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 2.5rem;
+    background-color: none;
+    border-radius: 0.625rem;
+    margin: 0.5rem 0 0 0;
+    padding: 0 0 0 1rem;
+}
+
+.sixth-subscriber {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 2.5rem;
+    background-color: none;
+    border-radius: 0.625rem;
+    margin: 0.5rem 0 0 0;
+    padding: 0 0 0 1rem;
+}
+
+.seventh-subscriber {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 2.5rem;
+    background-color: none;
+    border-radius: 0.625rem;
+    margin: 0.5rem 0 0 0;
+    padding: 0 0 0 1rem;
 }
