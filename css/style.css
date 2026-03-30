@@ -267,7 +267,12 @@ nav {
     align-items: center;
     justify-content: flex-start;
     border-radius: 0.625rem;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.home:hover {
+    background-color: #212121;
 }
 
 .home i {
@@ -288,7 +293,12 @@ nav {
     border-radius: 0.625rem;
     margin-top: 0.5rem;
     background-color: none;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.shorts:hover {
+    background-color: #212121;
 }
 
 .shorts img {
@@ -314,6 +324,7 @@ nav {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    /* cursor: pointer; */
 }
 
 
@@ -329,9 +340,10 @@ nav {
     width: 100%;
     height: 2.5rem;
     border-radius: 0.625rem;
-    padding: 0 0 0 1rem;
-
+    padding: 0 0 0 0;
+    /* cursor: pointer; */
 }
+
 
 .arrow {
     margin: 0 0 0 1rem;
@@ -361,8 +373,13 @@ nav {
     height: 2.5rem;
     border-radius: 0.625rem;
     margin-top: 0.1rem;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
 
+}
+
+.first-subscriber:hover {
+    background-color: #212121;
 }
 
 .img img {
@@ -381,8 +398,14 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
 
+}
+
+
+.second-subscriber:hover {
+    background-color: #212121;
 }
 
 .thired-subscriber {
@@ -394,8 +417,14 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
 }
+
+.thired-subscriber:hover {
+    background-color: #212121;
+}
+
 
 .thired-subscriber .channel-name3 p {
     font-size: 12px;
@@ -407,10 +436,15 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    cursor: pointer;
+}
+
+.fourth-subscriber:hover {
+    background-color: #212121;
 }
 
 .fifth-subscriber {
@@ -422,7 +456,12 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.fifth-subscriber:hover {
+    background-color: #212121;
 }
 
 .sixth-subscriber {
@@ -434,7 +473,12 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.sixth-subscriber:hover {
+    background-color: #212121;
 }
 
 .seventh-subscriber {
@@ -446,7 +490,12 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.1 rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.seventh-subscriber:hover {
+    background-color: #212121;
 }
 
 .section3 {
@@ -487,6 +536,11 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.5rem 0 0 0;
+    cursor: pointer;
+}
+
+.option1:hover {
+    background-color: #212121;
 }
 
 .option1 i {
@@ -503,7 +557,12 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.5rem 0 0 0;
+    cursor: pointer;
 
+}
+
+.option2:hover {
+    background-color: #212121;
 }
 
 .option2 img {
@@ -522,6 +581,11 @@ nav {
     border-radius: 0.625rem;
     margin: 0.5rem 0 0 0;
     /* padding: 0 0 0 1rem; */
+    cursor: pointer;
+}
+
+.option3:hover {
+    background-color: #212121;
 }
 
 .option3 i {
@@ -537,6 +601,11 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 0.5rem 0 0 0;
+    cursor: pointer;
+}
+
+.option4:hover {
+    background-color: #212121;
 }
 
 .option4 i {
@@ -552,6 +621,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    cursor: pointer;
+}
+
+.option5:hover {
+    background-color: #212121;
 }
 
 .box {
@@ -583,6 +657,11 @@ nav {
     margin: 0.5rem 0 0 0;
     background-color: none;
     border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+.option6:hover {
+    background-color: #212121;
 }
 
 .option6 i {
@@ -620,7 +699,12 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.optiopn-1:hover {
+    background-color: #212121;
 }
 
 .optiopn-1 i {
@@ -636,7 +720,13 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
+
+}
+
+.option-2:hover {
+    background-color: #212121;
 }
 
 .option-2 i {
@@ -652,8 +742,13 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
 
+}
+
+.option-3:hover {
+    background-color: #212121;
 }
 
 .option-3 i {
@@ -677,7 +772,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
     margin: 1rem 0 0 0;
     border-radius: 0.625rem;
 }
@@ -691,8 +786,13 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
 
+}
+
+.option-01:hover {
+    background-color: #212121;
 }
 
 .option-01 i {
@@ -712,8 +812,14 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 1rem 0 0 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
 
+
+}
+
+.option-02:hover {
+    background-color: #212121;
 }
 
 .option-02 img {
@@ -735,7 +841,12 @@ nav {
     background-color: none;
     border-radius: 0.625rem;
     margin: 1rem 0 1.5rem 0;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.option-03:hover {
+    background-color: #212121;
 }
 
 .option-03 img {
@@ -779,7 +890,10 @@ nav {
     justify-content: center;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
+
+
 
 .second-catagory {
     display: flex;
@@ -792,6 +906,7 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .thired-catagory {
@@ -805,6 +920,7 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .fourth-catagory {
@@ -818,6 +934,7 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .fifth-catagory {
@@ -831,6 +948,7 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .sixth-catagory {
@@ -844,6 +962,7 @@ nav {
     background-color: #212121;
     color: #ffffff;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .seventh-catagory {
@@ -857,6 +976,7 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .eight-catagory {
@@ -870,6 +990,7 @@ nav {
     background-color: #212121;
     color: #FFFFFF;
     flex-shrink: 0;
+    cursor: pointer;
 
 }
 
@@ -884,6 +1005,7 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 
 }
 
@@ -898,6 +1020,7 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 
 }
 
@@ -912,6 +1035,7 @@ nav {
     color: #FFFFFF;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .twelth-catagory {
@@ -925,7 +1049,7 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
-    flex: 0 0 auto
+    flex: 0 0 auto cursor: pointer;
 }
 
 .thirteen-catagory {
@@ -939,4 +1063,5 @@ nav {
     color: #ffffff;
     margin: 0.75rem 0.75rem 0.75rem 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
