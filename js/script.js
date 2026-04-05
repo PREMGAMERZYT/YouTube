@@ -1,6 +1,6 @@
 const searchInput = document.getElementById("search");
 const searchButton = document.getElementById("seacrh-button");
-const categorySection = document.querySelector(".categorysection");
+const categorySection1 = document.querySelector(".categorysection");
 
 
 searchInput.addEventListener("click", (e) => {
@@ -12,10 +12,10 @@ document.addEventListener("click", () => {
     searchButton.style.border = "0.1px solid #858484";
 });
 
-categorySection.addEventListener("wheel", (e) => {
+categorySection1.addEventListener("wheel", (e) => {
     if (e.deltaY !== 0) {
         e.preventDefault();
-        categorySection.scrollLeft += e.deltaY;
+        categorySection1.scrollLeft += e.deltaY;
     }
 });
 
